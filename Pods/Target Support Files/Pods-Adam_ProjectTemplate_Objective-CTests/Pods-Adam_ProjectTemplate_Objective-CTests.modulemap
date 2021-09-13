@@ -1,0 +1,6 @@
+framework module Pods_Adam_ProjectTemplate_Objective_CTests {
+  umbrella header "Pods-Adam_ProjectTemplate_Objective-CTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
