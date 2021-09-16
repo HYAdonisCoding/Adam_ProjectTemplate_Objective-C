@@ -3,12 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		07800A0065A45542A9230C03 /* Pods_Adam_ProjectTemplate_Objective_CTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC27F817A103434C8CE5E67 /* Pods_Adam_ProjectTemplate_Objective_CTests.framework */; };
 		4FDDAFD922A5F7ADF531E991 /* Pods_Adam_ProjectTemplate_Objective_C_Adam_ProjectTemplate_Objective_CUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B4A41FD0EFA6E773CB0395 /* Pods_Adam_ProjectTemplate_Objective_C_Adam_ProjectTemplate_Objective_CUITests.framework */; };
+		66487F6B26F3349100749B0A /* AEBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66487F6526F3349100749B0A /* AEBaseView.m */; };
+		66487F6C26F3349100749B0A /* AEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66487F6926F3349100749B0A /* AEBaseViewController.m */; };
+		66487F6D26F3349100749B0A /* AEBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66487F6A26F3349100749B0A /* AEBaseModel.m */; };
+		66487F7326F334E800749B0A /* AEConvenientTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 66487F6F26F334E800749B0A /* AEConvenientTool.m */; };
+		66487F7826F3355F00749B0A /* AEHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66487F7726F3355F00749B0A /* AEHomeViewController.m */; };
+		66487F7C26F337DF00749B0A /* AEMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66487F7B26F337DF00749B0A /* AEMineViewController.m */; };
+		66487F7F26F3380200749B0A /* AETableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66487F7E26F3380200749B0A /* AETableViewVC.m */; };
+		66487F8226F3381900749B0A /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66487F8126F3381900749B0A /* TestVC.m */; };
+		66487F8626F3393E00749B0A /* UIView+AEHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 66487F8526F3393E00749B0A /* UIView+AEHUD.m */; };
 		666D7D3226EE0E5800CC131B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 666D7D3126EE0E5800CC131B /* AppDelegate.m */; };
 		666D7D3526EE0E5800CC131B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 666D7D3426EE0E5800CC131B /* SceneDelegate.m */; };
 		666D7D3826EE0E5800CC131B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666D7D3726EE0E5800CC131B /* ViewController.m */; };
@@ -43,6 +52,25 @@
 		1192D78D0B04C1604557B591 /* Pods-Adam_ProjectTemplate_Objective-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_ProjectTemplate_Objective-C.debug.xcconfig"; path = "Target Support Files/Pods-Adam_ProjectTemplate_Objective-C/Pods-Adam_ProjectTemplate_Objective-C.debug.xcconfig"; sourceTree = "<group>"; };
 		231F890C2AA9E420E53CEA0A /* Pods-Adam_ProjectTemplate_Objective-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adam_ProjectTemplate_Objective-C.release.xcconfig"; path = "Target Support Files/Pods-Adam_ProjectTemplate_Objective-C/Pods-Adam_ProjectTemplate_Objective-C.release.xcconfig"; sourceTree = "<group>"; };
 		60B4A41FD0EFA6E773CB0395 /* Pods_Adam_ProjectTemplate_Objective_C_Adam_ProjectTemplate_Objective_CUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adam_ProjectTemplate_Objective_C_Adam_ProjectTemplate_Objective_CUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66487F6326F3335800749B0A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		66487F6526F3349100749B0A /* AEBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEBaseView.m; sourceTree = "<group>"; };
+		66487F6626F3349100749B0A /* AEBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEBaseViewController.h; sourceTree = "<group>"; };
+		66487F6726F3349100749B0A /* AEBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEBaseModel.h; sourceTree = "<group>"; };
+		66487F6826F3349100749B0A /* AEBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEBaseView.h; sourceTree = "<group>"; };
+		66487F6926F3349100749B0A /* AEBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEBaseViewController.m; sourceTree = "<group>"; };
+		66487F6A26F3349100749B0A /* AEBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEBaseModel.m; sourceTree = "<group>"; };
+		66487F6F26F334E800749B0A /* AEConvenientTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEConvenientTool.m; sourceTree = "<group>"; };
+		66487F7126F334E800749B0A /* AEConvenientTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEConvenientTool.h; sourceTree = "<group>"; };
+		66487F7626F3355F00749B0A /* AEHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEHomeViewController.h; sourceTree = "<group>"; };
+		66487F7726F3355F00749B0A /* AEHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEHomeViewController.m; sourceTree = "<group>"; };
+		66487F7A26F337DF00749B0A /* AEMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AEMineViewController.h; sourceTree = "<group>"; };
+		66487F7B26F337DF00749B0A /* AEMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEMineViewController.m; sourceTree = "<group>"; };
+		66487F7D26F3380200749B0A /* AETableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AETableViewVC.h; sourceTree = "<group>"; };
+		66487F7E26F3380200749B0A /* AETableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AETableViewVC.m; sourceTree = "<group>"; };
+		66487F8026F3381900749B0A /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		66487F8126F3381900749B0A /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		66487F8426F3393D00749B0A /* UIView+AEHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AEHUD.h"; sourceTree = "<group>"; };
+		66487F8526F3393E00749B0A /* UIView+AEHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AEHUD.m"; sourceTree = "<group>"; };
 		666D7D2D26EE0E5800CC131B /* Adam_ProjectTemplate_Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adam_ProjectTemplate_Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		666D7D3026EE0E5800CC131B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		666D7D3126EE0E5800CC131B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,6 +126,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66487F6026F3313C00749B0A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				666D7D3926EE0E5800CC131B /* Main.storyboard */,
+				666D7D3F26EE0E5B00CC131B /* Assets.xcassets */,
+				666D7D4126EE0E5B00CC131B /* LaunchScreen.storyboard */,
+				666D7D4426EE0E5B00CC131B /* Info.plist */,
+				666D7D4526EE0E5B00CC131B /* main.m */,
+				666D7D3C26EE0E5800CC131B /* Adam_ProjectTemplate_Objective_C.xcdatamodeld */,
+				66487F6326F3335800749B0A /* PrefixHeader.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		66487F6126F3319C00749B0A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				66487F7926F337B800749B0A /* Test */,
+				66487F7526F3355F00749B0A /* Home */,
+				66487F6E26F334E800749B0A /* Tools */,
+				66487F6426F3349100749B0A /* BaseClase */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		66487F6426F3349100749B0A /* BaseClase */ = {
+			isa = PBXGroup;
+			children = (
+				66487F6726F3349100749B0A /* AEBaseModel.h */,
+				66487F6A26F3349100749B0A /* AEBaseModel.m */,
+				66487F6826F3349100749B0A /* AEBaseView.h */,
+				66487F6526F3349100749B0A /* AEBaseView.m */,
+				66487F6626F3349100749B0A /* AEBaseViewController.h */,
+				66487F6926F3349100749B0A /* AEBaseViewController.m */,
+			);
+			path = BaseClase;
+			sourceTree = "<group>";
+		};
+		66487F6E26F334E800749B0A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				66487F8326F338E200749B0A /* Category */,
+				66487F7126F334E800749B0A /* AEConvenientTool.h */,
+				66487F6F26F334E800749B0A /* AEConvenientTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		66487F7526F3355F00749B0A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				66487F7626F3355F00749B0A /* AEHomeViewController.h */,
+				66487F7726F3355F00749B0A /* AEHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		66487F7926F337B800749B0A /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				666D7D3626EE0E5800CC131B /* ViewController.h */,
+				666D7D3726EE0E5800CC131B /* ViewController.m */,
+				66487F7A26F337DF00749B0A /* AEMineViewController.h */,
+				66487F7B26F337DF00749B0A /* AEMineViewController.m */,
+				66487F7D26F3380200749B0A /* AETableViewVC.h */,
+				66487F7E26F3380200749B0A /* AETableViewVC.m */,
+				66487F8026F3381900749B0A /* TestVC.h */,
+				66487F8126F3381900749B0A /* TestVC.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		66487F8326F338E200749B0A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				66487F8426F3393D00749B0A /* UIView+AEHUD.h */,
+				66487F8526F3393E00749B0A /* UIView+AEHUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		666D7D2426EE0E5800CC131B = {
 			isa = PBXGroup;
 			children = (
@@ -127,14 +236,8 @@
 				666D7D3126EE0E5800CC131B /* AppDelegate.m */,
 				666D7D3326EE0E5800CC131B /* SceneDelegate.h */,
 				666D7D3426EE0E5800CC131B /* SceneDelegate.m */,
-				666D7D3626EE0E5800CC131B /* ViewController.h */,
-				666D7D3726EE0E5800CC131B /* ViewController.m */,
-				666D7D3926EE0E5800CC131B /* Main.storyboard */,
-				666D7D3F26EE0E5B00CC131B /* Assets.xcassets */,
-				666D7D4126EE0E5B00CC131B /* LaunchScreen.storyboard */,
-				666D7D4426EE0E5B00CC131B /* Info.plist */,
-				666D7D4526EE0E5B00CC131B /* main.m */,
-				666D7D3C26EE0E5800CC131B /* Adam_ProjectTemplate_Objective_C.xcdatamodeld */,
+				66487F6126F3319C00749B0A /* Classes */,
+				66487F6026F3313C00749B0A /* Resources */,
 			);
 			path = "Adam_ProjectTemplate_Objective-C";
 			sourceTree = "<group>";
@@ -177,7 +280,6 @@
 				EAB1BA93FE2E7E615E196769 /* Pods-Adam_ProjectTemplate_Objective-CTests.debug.xcconfig */,
 				B747A7FBD62B7D1D229ECEC4 /* Pods-Adam_ProjectTemplate_Objective-CTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,7 +350,9 @@
 		666D7D2526EE0E5800CC131B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AE;
 				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = com.adam;
 				TargetAttributes = {
 					666D7D2C26EE0E5800CC131B = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -418,11 +522,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66487F7F26F3380200749B0A /* AETableViewVC.m in Sources */,
+				66487F6C26F3349100749B0A /* AEBaseViewController.m in Sources */,
 				666D7D4626EE0E5B00CC131B /* main.m in Sources */,
+				66487F6D26F3349100749B0A /* AEBaseModel.m in Sources */,
+				66487F7C26F337DF00749B0A /* AEMineViewController.m in Sources */,
+				66487F7826F3355F00749B0A /* AEHomeViewController.m in Sources */,
 				666D7D3826EE0E5800CC131B /* ViewController.m in Sources */,
 				666D7D3226EE0E5800CC131B /* AppDelegate.m in Sources */,
+				66487F7326F334E800749B0A /* AEConvenientTool.m in Sources */,
 				666D7D3E26EE0E5800CC131B /* Adam_ProjectTemplate_Objective_C.xcdatamodeld in Sources */,
 				666D7D3526EE0E5800CC131B /* SceneDelegate.m in Sources */,
+				66487F6B26F3349100749B0A /* AEBaseView.m in Sources */,
+				66487F8626F3393E00749B0A /* UIView+AEHUD.m in Sources */,
+				66487F8226F3381900749B0A /* TestVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,7 +709,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Adam_ProjectTemplate_Objective-C/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Adam_ProjectTemplate_Objective-C/Resources/PrefixHeader.pch";
+				INFOPLIST_FILE = "Adam_ProjectTemplate_Objective-C/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -614,7 +728,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Adam_ProjectTemplate_Objective-C/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Adam_ProjectTemplate_Objective-C/Resources/PrefixHeader.pch";
+				INFOPLIST_FILE = "Adam_ProjectTemplate_Objective-C/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

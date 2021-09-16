@@ -5,9 +5,8 @@
 //  Created by Adam on 2021/9/12.
 //
 
-#import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : AEBaseViewController
 
 
 @end

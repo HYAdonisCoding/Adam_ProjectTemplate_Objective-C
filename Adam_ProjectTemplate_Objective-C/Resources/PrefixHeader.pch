@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  Adam_ProjectTemplate_Objective-C
+//
+//  Created by Adam on 2021/9/16.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+// $(SRCROOT)/Adam_ProjectTemplate_Objective-C/Resources/PrefixHeader.pch
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import <YYModel/YYModel.h>
+#import <SDWebImage/SDWebImage.h>
+#import <Masonry/Masonry.h>
+
+
+#import "AEBaseModel.h"
+#import "AEBaseView.h"
+#import "AEBaseViewController.h"
+
+#import "UIView+AEHUD.h"
+
+#endif /* PrefixHeader_pch */

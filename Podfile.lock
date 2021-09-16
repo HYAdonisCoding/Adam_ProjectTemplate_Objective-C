@@ -15,26 +15,39 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - CocoaSecurity (1.2.4)
+  - DZNEmptyDataSet (1.8.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - IQKeyboardManager (6.5.6)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - ReactiveObjC (3.1.1)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
   - SSKeychain (1.4.1)
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
   - WebViewJavascriptBridge (6.0.3)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0.1)
   - CocoaSecurity (~> 1.2.4)
+  - DZNEmptyDataSet
+  - FMDB
   - IQKeyboardManager (~> 6.5.6)
   - Masonry (~> 1.1.0)
   - MBProgressHUD (~> 1.2.0)
   - ReactiveObjC (~> 3.1.1)
+  - SDCycleScrollView
   - SDWebImage (~> 5.11.1)
   - SSKeychain (~> 1.4.1)
+  - VTMagic
   - WebViewJavascriptBridge (~> 6.0.3)
   - YYModel (~> 1.0.4)
 
@@ -42,27 +55,35 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - CocoaSecurity
+    - DZNEmptyDataSet
+    - FMDB
     - IQKeyboardManager
     - Masonry
     - MBProgressHUD
     - ReactiveObjC
+    - SDCycleScrollView
     - SDWebImage
     - SSKeychain
+    - VTMagic
     - WebViewJavascriptBridge
     - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: bada20110ba48da3b0e9f2781e751960a9b58fac
+PODFILE CHECKSUM: 01b30ab6e314063365377aa586ed808ebd9549fc
 
 COCOAPODS: 1.11.0

@@ -16,6 +16,11 @@ target 'Adam_ProjectTemplate_Objective-C' do
   pod 'SSKeychain',      '~> 1.4.1'               # 钥匙串
   pod 'WebViewJavascriptBridge',      '~> 6.0.3'  # Objective-C与JavaScript进行消息互通
   pod 'CocoaSecurity',      '~> 1.2.4'            # 加密、解密
+  pod 'SDCycleScrollView',      '~> 1.82'            #循环轮播
+  
+  pod 'DZNEmptyDataSet',      '~> 1.8.1'            # 空视图
+  pod 'FMDB',      '~> 2.7.5'            # 数据库
+  pod "VTMagic",      '~> 1.2.4'            # 分页组件
 
   target 'Adam_ProjectTemplate_Objective-CTests' do
     inherit! :search_paths
